@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-Python_Developers">
+      <rect width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Python_Developers" data-name="Python Developers" clip-path="url(#clip-Python_Developers)">
+    <g id="python-5" transform="translate(-0.145 -0.072)">
+      <path id="Path_135377" data-name="Path 135377" d="M23.972.072c-12.185,0-11.425,5.284-11.425,5.284l.014,5.475H24.189v1.644H7.942s-7.8-.884-7.8,11.411S6.951,35.745,6.951,35.745h4.062V30.039s-.219-6.806,6.7-6.806H29.243s6.48.1,6.48-6.262V6.443S36.707.072,23.972.072ZM17.56,3.754a2.09,2.09,0,1,1-1.48.612A2.09,2.09,0,0,1,17.56,3.754Z" transform="translate(0 0)" fill="#335fff"/>
+      <path id="Path_135378" data-name="Path 135378" d="M77.913,100c12.185,0,11.425-5.284,11.425-5.284l-.014-5.475H77.7V87.593H93.942s7.8.884,7.8-11.411-6.806-11.859-6.806-11.859H90.872v5.705s.219,6.806-6.7,6.806H72.642s-6.48-.1-6.48,6.263V93.624S65.178,100,77.912,100Zm6.412-3.681A2.09,2.09,0,1,1,85.8,95.7a2.09,2.09,0,0,1-1.48.612Z" transform="translate(-53.594 -52.173)" fill="#849fff"/>
+    </g>
+  </g>
+</svg>

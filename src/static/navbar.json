@@ -1,0 +1,565 @@
+[
+    {
+      "id": 7,
+      "main_label": "Explore AI",
+      "desc": "Transform your business with intelligent solutions that tackle your toughest challenges. From AI-driven automation to custom models, we help you stay ahead with smart, scalable, and efficient technologies.",
+      "main_image": "https://webmobtechcdn.nyc3.cdn.digitaloceanspaces.com/wmt_v4/2025/03/close-up-man-robotic-process-automation-concept-scaled.jpg",
+  
+      "sub_menu": [
+        {
+          "s_id": "7a",
+          "label": "AI ML Development",
+          "url": null,
+          "label_icon": "Ai-ML-Development.svg",
+          "child_menu": [
+            {
+              "c_label": "AI Development Services",
+              "c_url": "/ai-development-services/"
+            },
+            {
+              "c_label": "AI Consulting",
+              "c_url": "/ai-consulting/"
+            },
+            {
+              "c_label": "RAG",
+              "c_url": "/rag-as-a-service/"
+            },
+            {
+              "c_label": "Custom AI & ML Model",
+              "c_url": "/custom-ai-ml-models-development/"
+            },
+            {
+              "c_label": "Computer Vision",
+              "c_url": "/computer-vision-software-development/"
+            },
+            {
+              "c_label": "AI-Based Data Analytics",
+              "c_url": "/ai-based-data-analytics-services/"
+            },
+            {
+              "c_label": "AI-Powered Search",
+              "c_url": "/ai-powered-search-software-development/"
+            },
+  
+            {
+              "c_label": "AI Chatbot Development",
+              "c_url": "/ai-chatbot-development/"
+            },
+            {
+              "c_label": "Custom LLMs",
+              "c_url": "/llm-development-services/"
+            },
+            {
+              "c_label": "AI in Software",
+              "c_url": "/ai-software-development-services/"
+            },
+            {
+              "c_label": "AI in Mobile Apps",
+              "c_url": "/ai-app-development/"
+            },
+            {
+              "c_label": "AI-Powered Business Intelligence",
+              "c_url": "/ai-powered-business-intelligence/"
+            },
+            {
+              "c_label": "AI-Automation Services",
+              "c_url": "/ai-automation-services/"
+            },
+            {
+              "c_label": "ML Development",
+              "c_url": "/machine-learning-development/"
+            },
+            {
+              "c_label": "ML Model Engineering",
+              "c_url": "/ml-model-engineering/"
+            }
+          ]
+        },
+        {
+          "s_id": "7b",
+          "label": "Generative AI",
+          "url": null,
+          "label_icon": "Generative-AI.svg",
+          "child_menu": [
+            {
+              "c_label": "Generative AI Development",
+              "c_url": "/generative-ai-development-services/"
+            },
+            {
+              "c_label": "AI Agent Development",
+              "c_url": "/ai-agent-development/"
+            },
+            {
+              "c_label": "Generative AI Consulting",
+              "c_url": "/generative-ai-consulting/"
+            },
+            {
+              "c_label": "LLM Testing and Finetuning",
+              "c_url": "/ai-ml-model-fine-tuning-optimization-services/"
+            },
+            {
+              "c_label": "GPT Integration",
+              "c_url": "/chatgpt-integration-services/"
+            },
+            {
+              "c_label": "AI-Powered Image & Video Generation Solution",
+              "c_url": "/ai-powered-image-video-generation/"
+            }
+          ]
+        },
+        {
+          "s_id": "7c",
+          "label": "Hire AI experts",
+          "url": null,
+          "label_icon": "Hire-AI-experts.svg",
+          "child_menu": [
+            {
+              "c_label": "Hire AI Engineer",
+              "c_url": "/hire-ai-developers/"
+            }
+          ]
+        }
+      ],
+      "footer_menu": []
+    },
+    {
+      "id": 1,
+      "main_label": "Work",
+      "main_url": "/portfolio/",
+      "sub_menu": [],
+      "footer_menu": []
+    },
+    {
+      "id": 2,
+      "main_label": "Services",
+      "main_url": "/services/",
+      "desc": "Partner with us and create the best suitable software for your business. Our team commits to your growth and goodwill online.",
+      "main_image": "https://webmobtechcdn.nyc3.cdn.digitaloceanspaces.com/wmt_v4/2023/07/services-1.webp",
+      "sub_menu": [
+        {
+          "s_id": "2a",
+          "label": "Web App Development",
+          "url": "/web-development-services/",
+          "desc": "Our expert web developers will build your digital presence with an intuitive and user friendly website for your business.",
+          "img": "https://webmobtechcdn.nyc3.cdn.digitaloceanspaces.com/wmt_v4/2023/05/Web-Development-–-1.webp",
+          "label_icon": "Web-App.svg",
+          "child_menu": [
+            {
+              "c_label": "Custom Web App",
+              "c_url": "/custom-web-development-services/"
+            },
+            {
+              "c_label": "Progressive Web App",
+              "c_url": "/progressive-web-app-development-services/"
+            },
+            {
+              "c_label": "ECommerce",
+              "c_url": "/e-commerce-development-services/"
+            },
+            {
+              "c_label": "CMS Development",
+              "c_url": "/cms-development-services/"
+            }
+          ]
+        },
+        {
+          "s_id": "2b",
+          "label": "Mobile App Development",
+          "url": "/mobile-app-development-services/",
+          "desc": "Modern businesses needs advanced technology and latest features to serve their consumers.",
+          "img": "https://webmobtechcdn.nyc3.cdn.digitaloceanspaces.com/wmt_v4/2023/05/mobile-app-development-1.webp",
+          "label_icon": "Mobile-App.svg",
+          "child_menu": [
+            {
+              "c_label": "React Native App Development",
+              "c_url": "/react-native-development-services/"
+            },
+            {
+              "c_label": "Flutter App Development",
+              "c_url": "/flutter-app-development-services"
+            },
+            {
+              "c_label": "Android App Development",
+              "c_url": "/android-app-development-services/"
+            },
+            {
+              "c_label": "iOS App Development",
+              "c_url": "/ios-app-development-services/"
+            }
+          ]
+        },
+        {
+          "s_id": "2c",
+          "label": "Other Services",
+          "url": null,
+          "desc": "Looking for DevOps expert? We are here for you. Our DevOps team will be your technology partner throughout the journey.",
+          "img": "https://webmobtechcdn.nyc3.cdn.digitaloceanspaces.com/wmt_v4/2023/05/dev-ops-1.webp",
+          "label_icon": "Other.svg",
+          "child_menu": [
+            {
+              "c_label": "Quality Assurance",
+              "c_url": "/quality-assurance-software-testing-services/"
+            },
+            {
+              "c_label": "IT Consulting",
+              "c_url": "/management-it-consulting-services/"
+            },
+            {
+              "c_label": "Product Design",
+              "c_url": "/product-design-development-services/"
+            },
+            {
+              "c_label": "Chrome Extension Development",
+              "c_url": "/chrome-extension-development-services/"
+            }
+          ]
+        }
+      ],
+      "footer_menu": [
+        {
+          "s_id": "2d",
+          "label": "AI-ML",
+          "url": "/ai-ml-development-services/",
+          "desc": "",
+          "img": "AI-ML.svg"
+        },
+        {
+          "s_id": "2e",
+          "label": "Blockchain",
+          "url": "/blockchain-development-services/",
+          "desc": "",
+          "img": "Blockchain.svg"
+        },
+        {
+          "s_id": "2f",
+          "label": "DevOps",
+          "url": "/devops-consulting-and-services/",
+          "desc": "",
+          "img": "DevOps.svg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "main_label": "Solutions",
+      "main_url": "/software-solutions/",
+      "desc": "We develop solutions as per your business needs. Here are some of the ready-to-deploy ventures for you.",
+      "main_image": "https://webmobtechcdn.nyc3.cdn.digitaloceanspaces.com/wmt_v4/2023/07/solutions-1.webp",
+      "sub_menu": [
+        {
+          "s_id": "3a",
+          "label": "Cabit",
+          "sub_title": "Taxi Booking App Solution",
+          "url": "/taxi-booking-app-solution/",
+          "desc": "A white label Uber clone solution for your logistics business. Manage your taxi fleet with our ready-to-run ride hailing venture.",
+          "img": "https://webmobtechcdn.nyc3.cdn.digitaloceanspaces.com/wmt_v4/2023/09/cabit.webp",
+          "child_menu": null
+        },
+        {
+          "s_id": "3c",
+          "label": "Vibez",
+          "sub_title": "On demand E-Streaming Solution",
+          "url": "/ebook-music-video-streaming-app-solutions/",
+          "desc": "Listen to online music and read your e-book anywhere with the ready-to-launch solution.",
+          "img": "https://webmobtechcdn.nyc3.cdn.digitaloceanspaces.com/wmt_v4/2023/09/vibez.webp",
+          "child_menu": null
+        },
+        {
+          "s_id": "3e",
+          "label": "LMS",
+          "sub_title": "Loan Management Software Solution",
+          "url": "/loan-management-software-solution/",
+          "desc": "A web-based loan management software to validate and determine all your loan related tasks into automated processes.",
+          "img": "https://webmobtechcdn.nyc3.cdn.digitaloceanspaces.com/wmt_v4/2023/09/lms.webp",
+          "child_menu": null
+        },
+        {
+          "s_id": "3f",
+          "label": "CRM ",
+          "sub_title": "CRM & Lead Management Solution",
+          "url": "/real-estate-crm-software-development/",
+          "desc": "Manage & monitor your consumer requirements. Right from calling to tracking ML based leads everything is integrated in CRM solution.",
+          "img": "https://webmobtechcdn.nyc3.cdn.digitaloceanspaces.com/wmt_v4/2023/09/crm.webp",
+          "child_menu": null
+        }
+      ],
+      "footer_menu": [
+        {
+          "s_id": "3g",
+          "label": "Get a quote now!",
+          "url": "/contact-us/",
+          "desc": "Connect with us for your requirements or queries.",
+          "img": "Get-a-quote.svg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "main_label": "Industries",
+      "main_url": null,
+      "desc": "We have transformed many businesses into successful online ventures in different fields. Our team looks forward to meet new ideas and clientele & create impact in the digital world.",
+      "main_image": "https://webmobtechcdn.nyc3.cdn.digitaloceanspaces.com/wmt_v4/2023/07/industries-1.webp",
+      "sub_menu": [
+        {
+          "s_id": "4a",
+          "label": "Healthcare",
+          "url": "/healthcare-and-medical-app-development-services/",
+          "desc": "",
+          "img": "Healthcare.svg",
+          "child_menu": null
+        },
+        {
+          "s_id": "4b",
+          "label": "On-Demand",
+          "url": "/on-demand-app-development-services/",
+          "desc": "",
+          "img": "On-Demand.svg",
+          "child_menu": null
+        },
+        {
+          "s_id": "4c",
+          "label": "Fintech",
+          "url": "/fintech-development-services/",
+          "desc": "",
+          "img": "Fintech.svg",
+          "child_menu": null
+        },
+        {
+          "s_id": "4d",
+          "label": "Market Place",
+          "url": "/market-place-app-development-services/",
+          "desc": "",
+          "img": "Market-Place.svg",
+          "child_menu": null
+        },
+        {
+          "s_id": "4e",
+          "label": "Retail",
+          "url": "/retail-ecommerce-app-development-services/",
+          "desc": "",
+          "img": "Retail.svg",
+          "child_menu": null
+        },
+        {
+          "s_id": "4f",
+          "label": "Social Networking",
+          "url": "/social-networking-app-development-services/",
+          "desc": "",
+          "img": "Social-Networking.svg",
+          "child_menu": null
+        },
+        {
+          "s_id": "4g",
+          "label": "Travel",
+          "url": "/travel-leisure-app-development-services/",
+          "desc": "",
+          "img": "Travel.svg",
+          "child_menu": null
+        },
+        {
+          "s_id": "4h",
+          "label": "Productivity",
+          "url": "/productivity-app-development-services/",
+          "desc": "",
+          "img": "Productivity.svg",
+          "child_menu": null
+        },
+        {
+          "s_id": "4i",
+          "label": "Sports",
+          "url": "/sports-app-development-service/",
+          "desc": "",
+          "img": "Sports.svg",
+          "child_menu": null
+        },
+        {
+          "s_id": "4j",
+          "label": "Media & Entertainment",
+          "url": "/media-entertainment-app-development-services/",
+          "desc": "",
+          "img": "Media.svg",
+          "child_menu": null
+        },
+        {
+          "s_id": "4k",
+          "label": "Proptech",
+          "url": "/proptech-software-development/",
+          "desc": "",
+          "img": "Proptech.svg",
+          "child_menu": null
+        }
+      ],
+      "footer_menu": [
+        {
+          "s_id": "4l",
+          "label": "Get a quote now!",
+          "url": "/contact-us/",
+          "desc": "Connect with us for your requirements or queries.",
+          "img": "Get-a-quote.svg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "main_label": "Hire Developers",
+      "main_url": "/dedicated-development-services/",
+      "desc": "Hire our experts on daily, mothly, or yearly basis! Hire top-notch techies for your project. Get a free quote for your idea from our developers.",
+      "main_image": "https://webmobtechcdn.nyc3.cdn.digitaloceanspaces.com/wmt_v4/2023/07/hire-developers-1.webp",
+      "sub_menu": [
+        {
+          "s_id": "5k",
+          "label": "AI Developers",
+          "url": "/hire-ai-developers/",
+          "desc": "Hire top AI developers, engineers and experts.",
+          "img": "AI-Developer.svg",
+          "child_menu": null
+        },
+        {
+          "s_id": "5a",
+          "label": "Laravel Developers",
+          "url": "/hire-laravel-developer/",
+          "desc": "WebMob Technologies provides agile and DevOps enabled Laravel development services.",
+          "img": "Laravel-Developers.svg",
+          "child_menu": null
+        },
+        {
+          "s_id": "5b",
+          "label": "ReactJS developers",
+          "url": "/hire-react-js-developer/",
+          "desc": "Hire ReactJS developers from WebMob Technologies for an astonishing client-side experience anywhere.",
+          "img": "React-JS-Developers.svg",
+          "child_menu": null
+        },
+        {
+          "s_id": "5c",
+          "label": "React Native Developers",
+          "url": "/hire-react-native-developer/",
+          "desc": "Hire React Native Developers as per your requirements who will work with you on your projects.",
+          "img": "React-JS-Developers.svg",
+          "child_menu": null
+        },
+        {
+          "s_id": "5d",
+          "label": "NodeJS Developers",
+          "url": "/hire-node-js-developer/",
+          "desc": "Hire Node js developers from us and develop a fast web server with best programming abilities.",
+          "img": "Node-JS-Developers.svg",
+          "child_menu": null
+        },
+        {
+          "s_id": "5e",
+          "label": "Flutter Developers",
+          "url": "/hire-flutter-developer/",
+          "desc": "If you need a team of flutter developers to extend your present team then our team is here for you.",
+          "img": "Flutter-Developer.svg",
+          "child_menu": null
+        },
+        {
+          "s_id": "5f",
+          "label": "Django Developers",
+          "url": "/hire-django-developer/",
+          "desc": "As our IT firm derives from Python, we have expertise in one of its most desired frameworks-Django.",
+          "img": "Django-Developer.svg",
+          "child_menu": null
+        },
+        {
+          "s_id": "5g",
+          "label": "Python Developers",
+          "url": "/hire-python-developer/",
+          "desc": "Being in the IT software solutions industry for over a decade, We offers cutting-edge Python web solutions.",
+          "img": "Python-Developers.svg",
+          "child_menu": null
+        },
+        {
+          "s_id": "5h",
+          "label": "AWS Developers",
+          "url": "/aws-development-services/",
+          "desc": "WebMobTech provides full-scale AWS consulting services for web and mobile software development.",
+          "img": "AWS-Developers.svg",
+          "child_menu": null
+        },
+        {
+          "s_id": "5i",
+          "label": "AngularJS developers",
+          "url": "/hire-angular-js-developer/",
+          "desc": "We provide top-notch Angular JS development services for secure, reliable, and scalable online venture.",
+          "img": "Angular-JS-Developer.svg",
+          "child_menu": null
+        },
+        {
+          "s_id": "5j",
+          "label": "VueJs Developers",
+          "url": "/hire-vue-js-developer/",
+          "desc": "Unfold Vue JS potential with our developer's apt skill set and expertise for a successful online business.",
+          "img": "Vue-JS-Developer.svg",
+          "child_menu": null
+        }
+      ],
+      "footer_menu": [
+        {
+          "s_id": "5k",
+          "label": "Get a quote now!",
+          "url": "/contact-us/",
+          "desc": "Connect with us for your requirements or queries.",
+          "img": "Get-a-quote.svg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "main_label": "Company",
+      "main_url": null,
+      "desc": "We are growing! 14+ years of expertise, varied tech stacks, and other digital revolutions. Our team is all set to make your app idea a success.",
+      "main_image": "https://webmobtechcdn.nyc3.cdn.digitaloceanspaces.com/wmt_v4/2023/07/company-1.webp",
+      "sub_menu": [
+        {
+          "s_id": "6a",
+          "label": "About Us",
+          "url": "/about-us/",
+          "desc": "Get in touch with our team to get started on an amazing journey of technological advancements.",
+          "img": "https://webmobtechcdn.nyc3.cdn.digitaloceanspaces.com/wmt_v4/2023/09/about-us.webp",
+          "child_menu": null
+        },
+        {
+          "s_id": "6b",
+          "label": "Testimonials",
+          "url": "/testimonials/",
+          "desc": "Our intuitive & technical minds have collaborated with some of the finest brands across the globe.",
+          "img": "https://webmobtechcdn.nyc3.cdn.digitaloceanspaces.com/wmt_v4/2023/09/testimonials.webp",
+          "child_menu": null
+        },
+        {
+          "s_id": "6c",
+          "label": "AI Evolution",
+          "url": "/ai-development-services-usa/",
+          "desc": "Top AI development company in the USA delivering AI & ML solutions for automation, data insights, and business optimization. Scale with intelligent technology.",
+          "img": "https://webmobtechcdn.nyc3.cdn.digitaloceanspaces.com/wmt_v4/2025/01/AI-1.webp",
+          "child_menu": null
+        }
+      ],
+      "footer_menu": [
+        {
+          "s_id": "6d",
+          "label": "Career",
+          "url": "/career/",
+          "desc": "Join our Tribe!",
+          "img": "Career.svg"
+        },
+        {
+          "s_id": "6e",
+          "label": "FAQs",
+          "url": "/faqs/",
+          "desc": "Answers at Your Fingertips!",
+          "img": "FAQ 1.svg"
+        },
+        {
+          "s_id": "6e",
+          "label": "Blogs",
+          "url": "/blog/",
+          "desc": "Stay updated with us!",
+          "img": "Blogs.svg"
+        }
+      ]
+    }
+  ]
+  

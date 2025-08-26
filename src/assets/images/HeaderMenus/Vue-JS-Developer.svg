@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-Vue_JS_Developer">
+      <rect width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Vue_JS_Developer" data-name="Vue JS Developer" clip-path="url(#clip-Vue_JS_Developer)">
+    <g id="vue-9" transform="translate(0 3)">
+      <path id="Path_135385" data-name="Path 135385" d="M38.4,0H48L24,41.4,0,0H18.36L24,9.6,29.52,0Z" fill="#335fff"/>
+      <path id="Path_135386" data-name="Path 135386" d="M0,0,24,41.4,48,0H38.4L24,24.84,9.48,0Z" fill="#335fff"/>
+      <path id="Path_135387" data-name="Path 135387" d="M50.56,0,65.08,24.96,79.48,0H70.6L65.08,9.6,59.44,0Z" transform="translate(-41.08)" fill="#849fff"/>
+    </g>
+  </g>
+</svg>

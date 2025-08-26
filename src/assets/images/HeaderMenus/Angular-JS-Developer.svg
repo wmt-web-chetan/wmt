@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-Angular_JS_Developer">
+      <rect width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Angular_JS_Developer" data-name="Angular JS Developer" clip-path="url(#clip-Angular_JS_Developer)">
+    <g id="angular-icon-1" transform="translate(1.27 -0.697)">
+      <path id="Path_135382" data-name="Path 135382" d="M.1,8.653,22.429.7,45.36,8.511,41.647,38.054,22.429,48.7,3.512,38.2Z" transform="translate(0)" fill="#335fff"/>
+      <path id="Path_135383" data-name="Path 135383" d="M148.838,8.511,125.908.7v48l19.218-10.625,3.713-29.56Z" transform="translate(-103.479)" opacity="0.3"/>
+      <path id="Path_135384" data-name="Path 135384" d="M61.628,32.274,47.714,63.231l5.2-.088,2.793-6.984H68.187l3.059,7.072,4.968.088Zm.035,9.918,4.7,9.83h-8.84Z" transform="translate(-39.163 -25.973)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

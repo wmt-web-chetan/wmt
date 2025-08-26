@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-Django_Developer">
+      <rect width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Django_Developer" data-name="Django Developer" clip-path="url(#clip-Django_Developer)">
+    <g id="django" transform="translate(5)">
+      <path id="Path_135375" data-name="Path 135375" d="M16.932,0h7.859V36.022a51.982,51.982,0,0,1-10.2,1.061C5,37.073,0,32.785,0,24.548c0-7.936,5.3-13.086,13.514-13.086a12.787,12.787,0,0,1,3.419.4Zm.275,18.355a7.913,7.913,0,0,0-2.65-.4c-3.975,0-6.271,2.425-6.271,6.674,0,4.137,2.2,6.422,6.221,6.422a18.543,18.543,0,0,0,2.7-.2v-12.5Z" fill="#335fff"/>
+      <path id="Path_135376" data-name="Path 135376" d="M165.344,12.43V30.465c0,6.211-.465,9.2-1.831,11.773-1.275,2.476-2.954,4.037-6.423,5.761L149.8,44.563c3.469-1.612,5.148-3.037,6.221-5.211,1.123-2.223,1.477-4.8,1.477-11.572V12.43h7.849ZM156.7,0h7.859V7.986H156.7Z" transform="translate(-127.7)" fill="#335fff"/>
+    </g>
+  </g>
+</svg>

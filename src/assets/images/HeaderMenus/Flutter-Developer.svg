@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-Flutter_Developer">
+      <rect width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Flutter_Developer" data-name="Flutter Developer" clip-path="url(#clip-Flutter_Developer)">
+    <g id="flutter" transform="translate(5 0)">
+      <path id="Path_135374" data-name="Path 135374" d="M3833.09-2531.4l7.38-7.7,7.379,7.7-7.379,7.7Zm7.375-7.716,5.536-5.777h14.781l-12.927,13.491ZM3822-2542.957,3846-2568h14.781l-31.39,32.756Z" transform="translate(-3822 2568)" fill="#335fff"/>
+      <path id="Path_135373" data-name="Path 135373" d="M951.7,1815.29l5.537,5.537h14.781L959.092,1807.9" transform="translate(-933.237 -1772.826)" fill="#849fff"/>
+    </g>
+  </g>
+</svg>

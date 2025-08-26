@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-On-Demand">
+      <rect width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="On-Demand" clip-path="url(#clip-On-Demand)">
+    <g id="Group_47286" data-name="Group 47286" transform="translate(-1058 -151)">
+      <path id="Path_135395" data-name="Path 135395" d="M208,337.792h4.966v3.933H208Z" transform="translate(871.517 -149.346)" fill="#335fff"/>
+      <path id="Path_135396" data-name="Path 135396" d="M88,400v3.31h29.793V400Zm0,0" transform="translate(979.103 -207.621)" fill="#335fff"/>
+      <path id="Path_135392" data-name="Path 135392" d="M48,3.647V1.655A1.66,1.66,0,0,0,46.345,0H1.655A1.66,1.66,0,0,0,0,1.655V33.1a1.66,1.66,0,0,0,1.655,1.655H9.8a74.6,74.6,0,0,0,17.506-9.1A74.867,74.867,0,0,0,48,3.647Zm0,0" transform="translate(1058 154)" fill="#d6dfff"/>
+      <path id="Path_135393" data-name="Path 135393" d="M89.834,66.874h43.954a1.66,1.66,0,0,0,1.655-1.655V34.247C128.5,41.19,95.641,61.067,89.834,66.874Z" transform="translate(970.556 121.884)" fill="#c5d2ff"/>
+      <path id="Path_135394" data-name="Path 135394" d="M176,104.552l16.552-8.276L176,88Zm0,0" transform="translate(900.207 75.103)" fill="#335fff"/>
+    </g>
+  </g>
+</svg>

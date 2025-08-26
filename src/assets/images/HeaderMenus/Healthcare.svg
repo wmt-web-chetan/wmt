@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-Healthcare">
+      <rect width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Healthcare" clip-path="url(#clip-Healthcare)">
+    <g id="healthy" transform="translate(-29.893 -64.725)">
+      <path id="Path_135397" data-name="Path 135397" d="M2132.421-2401.865h4.748l5.662-9.364,5.185,14,.878-1.894,3.265-7.049h8.5v-2.319h-9.983l-1.784,3.854-.639,1.378-4.921-13.281-7.472,12.359H2130.1l-1.092-1.092a14.058,14.058,0,0,1,0-19.881,14.06,14.06,0,0,1,19.883,0,14.057,14.057,0,0,1,19.881,0,14.057,14.057,0,0,1,0,19.881l-19.881,19.883Z" transform="translate(-2095 2496)" fill="#335fff" opacity="0.3"/>
+      <path id="Path_135391" data-name="Path 135391" d="M2142.792-2423.961l-5.662,9.364H2125v-2.318h10.822l7.474-12.36,4.92,13.282.639-1.378v5.515l-.877,1.894Zm6.063,6.59,1.786-3.854h9.983v2.318h-8.5l-3.265,7.051Z" transform="translate(-2094.961 2508.732)" fill="#335fff"/>
+    </g>
+  </g>
+</svg>

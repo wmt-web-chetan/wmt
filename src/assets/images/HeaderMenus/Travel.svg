@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-Travel">
+      <rect width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Travel" clip-path="url(#clip-Travel)">
+    <g id="airplane" transform="translate(-2 -1.966)">
+      <path id="Path_135457" data-name="Path 135457" d="M46.074,43.385l-5.559,3.7L30.393,25.948a7.446,7.446,0,0,0-3.584-3.58L5.62,12.257l3.7-5.586A3.819,3.819,0,0,1,13.8,5.212S33.247,12.339,34.973,12.9a7.546,7.546,0,0,1,4.812,4.807s6.289,17.52,7.7,21.2a3.81,3.81,0,0,1-1.41,4.475Z" transform="translate(-0.211 -0.519)" fill="#c1ceff" fill-rule="evenodd"/>
+      <path id="Path_135455" data-name="Path 135455" d="M20.33,39.448a3.43,3.43,0,0,1-1.695,4.24L16.55,44.737l-6-8.481L2,30.217l1.05-2.1a3.391,3.391,0,0,1,4.245-1.678l4.785,1.813L25.722,12.869l4.29,2.038a3.358,3.358,0,0,1,1.62,1.633l2.04,4.285-15.1,13.917Z" transform="translate(0 5.229)" fill="#335fff" fill-rule="evenodd"/>
+      <path id="Path_135456" data-name="Path 135456" d="M42.35,8.011a5.99,5.99,0,0,1-1.77,4.24l-14.751,14-.441-1.038a10.24,10.24,0,0,0-6.57-6.563l-.894-.394L32.045,3.785a6,6,0,0,1,10.3,4.226Z" transform="translate(7.65 0)" fill="#335fff" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>
