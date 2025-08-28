@@ -1,13 +1,11 @@
-import HeroSection from '@/components/HeroSection'
-import InnovationSection from '@/components/InnovationSection'
 import React from 'react'
 
-const DynamicPage = ({params}) => {
+const DynamicPage = ({params, searchParams}) => {
+  
    
   return (
     <div className=''>
-        <HeroSection/>
-        <InnovationSection/>
+       <h1>Requested Page is not available</h1>
     </div>
   )
 }
