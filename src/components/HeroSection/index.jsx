@@ -1,8 +1,9 @@
 import React from "react";
 import "./hero.css";
-import PrimaryButton from "../blocks/PrimaryButton";
+// import PrimaryButton from "../blocks/PrimaryButton";
 import Image from "next/image";
 import backdropImage from  "../../assets/images/404SVG/Group 74.png"
+import PrimaryButton from "@/blocks/PrimaryButton";
 
 const HeroSection = (props) => {
   console.log(props,"fffffff")
