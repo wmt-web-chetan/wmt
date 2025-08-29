@@ -3,6 +3,7 @@ import VideoBackground from '@/components/AIVideoSectionn';
 import { BlogInsightsSection } from '@/components/BlogSection';
 import BrandsTrustedSection from '@/components/BrandsSection';
 import CaseStudiesSection from '@/components/case-studies';
+import AwardsSection from '@/components/CertificationSection';
 import HeroSection from '@/components/HeroSection'
 import HomeStatistics from '@/components/HomeStatistics';
 import InnovationSection from '@/components/InnovationSection'
@@ -23,6 +24,7 @@ export default function Home() {
       <MarqueeVideoSection />
       <WebMobSection />
       <TestimonialsSection />
+      <AwardsSection />
     </div>
   );
 }

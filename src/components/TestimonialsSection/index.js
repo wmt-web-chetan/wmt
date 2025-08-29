@@ -112,16 +112,16 @@ const TestimonialsSection = () => {
                   key={`${testimonial.id}-${currentSlide}`}
                   className={`flex-shrink-0 relative transition-all duration-500 ease-in-out ${
                     isCenter
-                      ? "w-72 lg:w-80 xl:w-96 2xl:w-112 3xl:w-128"
-                      : "w-56 lg:w-64 xl:w-72 2xl:w-108 3xl:w-96 opacity-60 translate-y-8"
+                      ? "w-80 lg:w-96 xl:w-112 2xl:w-128 3xl:w-144"
+                      : "w-64 lg:w-80 xl:w-96 2xl:w-112 3xl:w-128 opacity-60 translate-y-8"
                   }`}
                 >
                   <div
                     className={`rounded-2xl lg:rounded-3xl transition-all duration-500 ${
                       isCenter
-                        ? "bg-blue-600 text-white p-6 lg:p-8 xl:p-10 2xl:p-12 3xl:p-14 transform scale-105 lg:scale-110 shadow-2xl"
-                        : "bg-gray-50 p-4 lg:p-6 xl:p-8 2xl:p-10 3xl:p-12"
-                    } pb-12 lg:pb-16 xl:pb-20 2xl:pb-24 3xl:pb-28`}
+                        ? "bg-blue-600 text-white p-4 lg:p-6 xl:p-8 2xl:p-10 3xl:p-12 transform scale-105 lg:scale-110 shadow-2xl"
+                        : "bg-gray-50 p-3 lg:p-4 xl:p-6 2xl:p-8 3xl:p-10"
+                    } pb-8 lg:pb-10 xl:pb-12 2xl:pb-14 3xl:pb-16`}
                   >
                     <div
                       className={`transition-all duration-500 flex justify-center mb-3 ${
@@ -153,7 +153,7 @@ const TestimonialsSection = () => {
                     <img
                       src={testimonial.avatar}
                       alt={testimonial.name}
-                      className={`rounded-full border-4 border-white shadow-lg transition-all duration-500 ${
+                      className={`rounded-full  shadow-lg transition-all duration-500 ${
                         isCenter
                           ? "w-16 h-16 lg:w-20 lg:h-20 xl:w-24 xl:h-24 2xl:w-28 2xl:h-28 3xl:w-32 3xl:h-32"
                           : "w-12 h-12 lg:w-16 lg:h-16 xl:w-20 xl:h-20 2xl:w-24 2xl:h-24 3xl:w-28 3xl:h-28"
@@ -198,7 +198,7 @@ const TestimonialsSection = () => {
               <button
                 key={index}
                 onClick={() => handleDotClick(index)}
-                className={`w-3 h-3 lg:w-4 lg:h-4 xl:w-5 xl:h-5 rounded-full transition-all duration-300 ${
+                className={`w-2 h-2 lg:w-3 lg:h-3 xl:w-3 xl:h-3 rounded-full transition-all duration-300 ${
                   currentSlide === index
                     ? "bg-blue-600 scale-125"
                     : "bg-gray-300 hover:bg-gray-400"
@@ -224,7 +224,7 @@ const TestimonialsSection = () => {
                   }`}
                 >
                   <div
-                    className={`rounded-2xl p-4 sm:p-6 pb-12 sm:pb-16 transition-all duration-500 ${
+                    className={`rounded-2xl p-3 sm:p-4 pb-8 sm:pb-10 transition-all duration-500 ${
                       index === currentSlide
                         ? "bg-blue-600 text-white"
                         : "bg-gray-50 text-gray-900"
@@ -256,7 +256,7 @@ const TestimonialsSection = () => {
                     <img
                       src={testimonial.avatar}
                       alt={testimonial.name}
-                      className={`rounded-full border-4 border-white shadow-lg transition-all duration-500 ${
+                      className={`rounded-full  shadow-lg transition-all duration-500 ${
                         index === currentSlide
                           ? "w-12 h-12 sm:w-16 sm:h-16"
                           : "w-10 h-10 sm:w-14 sm:h-14"
@@ -291,7 +291,7 @@ const TestimonialsSection = () => {
               <button
                 key={index}
                 onClick={() => handleDotClick(index)}
-                className={`w-2 h-2 sm:w-3 sm:h-3 rounded-full transition-all duration-300 ${
+                className={`w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full transition-all duration-300 ${
                   currentSlide === index ? "bg-blue-600" : "bg-gray-300"
                 }`}
                 aria-label={`Go to slide ${index + 1}`}
@@ -307,7 +307,7 @@ const TestimonialsSection = () => {
               <>
                 View All Testimonials
                 <svg
-                  className="ml-2 sm:ml-3 md:ml-4 w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 lg:w-7 lg:h-7 xl:w-8 xl:h-8 2xl:w-9 2xl:h-9 3xl:w-10 3xl:h-10"
+                  className="ml-2 w-4 h-4 sm:w-4 sm:h-4"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -321,7 +321,7 @@ const TestimonialsSection = () => {
                 </svg>
               </>
             }
-            className="bg-gradient-primary hover:bg-gradient-primary-hover text-white font-semibold px-6 py-3 sm:px-8 sm:py-4 md:px-10 md:py-5 lg:px-12 lg:py-6 xl:px-14 xl:py-7 2xl:px-16 2xl:py-8 3xl:px-18 3xl:py-9 rounded-full text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl transition-colors duration-200 flex items-center mx-auto"
+            className="bg-gradient-primary hover:bg-gradient-primary-hover text-white font-medium px-4 py-2 sm:px-6 sm:py-3 md:px-8 md:py-3 lg:px-8 lg:py-3 rounded-full text-sm sm:text-base md:text-base lg:text-base transition-colors duration-200 flex items-center mx-auto"
           />
         </div>
       </div>

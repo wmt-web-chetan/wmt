@@ -3,7 +3,7 @@
     overflow: hidden;
     white-space: nowrap;
     position: relative;
-    padding: 0 120px;
+    /* padding: 0 120px; */
 }
 
 .marquee-content {    

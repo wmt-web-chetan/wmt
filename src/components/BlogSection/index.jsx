@@ -44,21 +44,19 @@ export function BlogInsightsSection() {
         "The Founder's Checklist: 7 Steps to Ensuring Your HealthTech App is HIPAA Compliant from Day One",
       tags: ["Latest", "Tech", "Health"],
       thumbnailSrc:
-      "https://webmobtechcdn.nyc3.cdn.digitaloceanspaces.com/wmt_v4/2025/08/WMT-Featured-Image-For-Blogs-2.png", // doctor tablet
+        "https://webmobtechcdn.nyc3.cdn.digitaloceanspaces.com/wmt_v4/2025/08/WMT-Featured-Image-For-Blogs-2.png", // doctor tablet
       readMoreLink: "#",
     },
   ];
-  
-  
 
   return (
     <section className="py-8 sm:py-12 lg:py-16 px-4 sm:px-6 lg:px-24 w-full mx-auto">
       {/* Header */}
       <div className="text-center mb-8 sm:mb-12 lg:mb-16">
-        <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900 dark:text-white mb-4 sm:mb-6">
+        <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
           Explore Our Latest <span className="text-gradient-primary">Insights</span>
         </h1>
-        <p className="text-sm sm:text-base lg:text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
+        <p className="text-sm sm:text-base lg:text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
           Exploring the latest insights and trends in your industry.
         </p>
       </div>
@@ -75,7 +73,7 @@ export function BlogInsightsSection() {
           {blogCards.map((blog, index) => (
             <div
               key={index}
-              className="bg-white dark:bg-gray-800 rounded-3xl p-4 sm:p-5 lg:p-6 border border-disabled-text flex-1"
+              className="bg-white rounded-3xl p-4 sm:p-5 lg:p-6 border border-disabled-text flex-1"
             >
               <div className="flex gap-3 sm:gap-4">
                 <div className="flex-shrink-0">
@@ -96,12 +94,12 @@ export function BlogInsightsSection() {
                       </span>
                     ))}
                   </div>
-                  <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-gray-900 dark:text-white mb-2 sm:mb-3 line-clamp-3 leading-tight">
+                  <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-gray-900 mb-2 sm:mb-3 line-clamp-3 leading-tight">
                     {blog.title}
                   </h3>
                   <a
                     href={blog.readMoreLink}
-                    className="text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 text-base sm:text-lg font-medium transition-colors duration-200"
+                    className="text-blue-600 hover:text-blue-700 text-base sm:text-lg font-medium transition-colors duration-200"
                   >
                     Read more
                   </a>
