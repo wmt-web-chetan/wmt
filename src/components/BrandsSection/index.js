@@ -1,4 +1,3 @@
-
 import "./BrandSection.css"
 export default function BrandsTrustedSection() {
   const brands = [
@@ -45,10 +44,10 @@ export default function BrandsTrustedSection() {
         </p>
 
         {/* Brands Grid with Scrolling Animation */}
-        <div className="space-y-12 overflow-hidden">
+        <div className="space-y-6 overflow-hidden">
           {/* First Row - Moving Right to Left */}
           <div className="relative">
-            <div className="flex animate-scroll-left gap-8 sm:gap-12 lg:gap-16">
+            <div className="flex animate-scroll-left gap-4 sm:gap-6 lg:gap-8">
               {/* Duplicate brands for seamless loop */}
               {[...brands[0], ...brands[0]].map((brand, index) => (
                 <div
@@ -72,7 +71,7 @@ export default function BrandsTrustedSection() {
 
           {/* Second Row - Moving Left to Right */}
           <div className="relative">
-            <div className="flex animate-scroll-right gap-8 sm:gap-12 lg:gap-16">
+            <div className="flex animate-scroll-right gap-4 sm:gap-6 lg:gap-8">
               {/* Duplicate brands for seamless loop */}
               {[...brands[1], ...brands[1]].map((brand, index) => (
                 <div
@@ -94,8 +93,6 @@ export default function BrandsTrustedSection() {
             <div className="absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none" />
           </div>
         </div>
-
-        
       </div>
     </section>
   );

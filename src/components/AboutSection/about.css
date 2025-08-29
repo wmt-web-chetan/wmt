@@ -1,0 +1,7 @@
+.right-icon {
+  background-image: url('../../assets/daimond.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  /* height: 100%; */
+}

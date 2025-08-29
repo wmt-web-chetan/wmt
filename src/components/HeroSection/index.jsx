@@ -9,8 +9,8 @@ const HeroSection = (props) => {
   console.log(props,"fffffff")
 
   return (
-    <div className="hero-background px-2">
-      <div className="flex flex-col items-center justify-center pt-20">
+    <div className="hero-background px-2 h-screen">
+      <div className="flex flex-col items-center justify-center h-full">
         <h1 className="hero-heading-animate text-3xl text-center md:text-5xl lg:text-5xl xl:text-5xl 2xl:text-7xl font-bold">
           Think <span className="text-gradient-primary">Smarter</span>,Grow{" "}
           <span className="text-gradient-primary">Faster</span>

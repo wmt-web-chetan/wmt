@@ -1,8 +1,14 @@
+import WebMobSection from '@/components/AboutSection';
+import VideoBackground from '@/components/AIVideoSectionn';
+import { BlogInsightsSection } from '@/components/BlogSection';
 import BrandsTrustedSection from '@/components/BrandsSection';
 import CaseStudiesSection from '@/components/case-studies';
 import HeroSection from '@/components/HeroSection'
+import HomeStatistics from '@/components/HomeStatistics';
 import InnovationSection from '@/components/InnovationSection'
 import SmartServices from '@/components/ServicesSection';
+import TestimonialsSection from '@/components/TestimonialsSection';
+import MarqueeVideoSection from '@/components/VideoSection';
 
 export default function Home() {
   return (
@@ -12,7 +18,11 @@ export default function Home() {
       <BrandsTrustedSection />
       <SmartServices/>
       <CaseStudiesSection/>
-      <InnovationSection/>
+      <BlogInsightsSection />
+      <HomeStatistics />
+      <MarqueeVideoSection />
+      <WebMobSection />
+      <TestimonialsSection />
     </div>
   );
 }
