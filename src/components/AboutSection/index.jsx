@@ -61,7 +61,7 @@ export default function WebMobSection({
                 {title.split("WebMob Technologies").map((part, index) => (
                   <span key={index}>
                     {part}
-                    {index === 0 && <span className="text-blue-600">WebMob Technologies</span>}
+                    {index === 0 && <span className="text-gradient-primary">WebMob Technologies</span>}
                   </span>
                 ))}
               </h1>

@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import Demo from "../../assets/images/404SVG/image.png";
+import PrimaryButton from "../../blocks/PrimaryButton";
 
 const InnovationSection = () => {
   const [activeTab, setActiveTab] = useState("AI");
@@ -130,9 +131,10 @@ const InnovationSection = () => {
               {currentContent.description}
             </p>
             <div className="mt-8">
-              <button className="bg-white px-6 rounded-full text-xs py-2">
-                Get Started
-              </button>
+              <PrimaryButton 
+                text="Get Started"
+                className="bg-white px-6 rounded-full text-xs py-2"
+              />
             </div>
           </div>
           <div>

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import graph from "../../assets/insight_graphs.svg";
 import spark from "../../assets/spark.svg";
+import PrimaryButton from "../../blocks/PrimaryButton";
 
 export default function Home() {
     return (
@@ -27,25 +28,30 @@ export default function Home() {
               </div>
   
               <div className="relative inline-block">
-  <button className="bg-gradient-primary text-white px-8 py-4 rounded-full text-base sm:text-lg font-semibold shadow-lg hover:shadow-xl hover:bg-gradient-primary-dark cursor-pointer transition-shadow duration-200 flex items-center gap-3">
-    <span>Talk To Expert</span>
-    <div className="relative">
-      <svg
-        className="w-5 h-5"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M5 12H19M19 12L12 5M19 12L12 19"
-          stroke="currentColor"
-          strokeWidth="2.5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-    </div>
-  </button>
+  <PrimaryButton 
+    text={
+      <>
+        <span>Talk To Expert</span>
+        <div className="relative">
+          <svg
+            className="w-5 h-5"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5 12H19M19 12L12 5M19 12L12 19"
+              stroke="currentColor"
+              strokeWidth="2.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </div>
+      </>
+    }
+    className="bg-gradient-primary text-white px-8 py-4 rounded-full text-base sm:text-lg font-semibold shadow-lg hover:shadow-xl hover:bg-gradient-primary-dark cursor-pointer transition-shadow duration-200 flex items-center gap-3"
+  />
 </div>
   
               {/* Chart Illustration */}

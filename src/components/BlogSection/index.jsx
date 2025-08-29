@@ -1,4 +1,5 @@
 import { FeaturedBlogCard } from "@/blocks/BlogCard"
+import PrimaryButton from "../../blocks/PrimaryButton"
 
 export function BlogInsightsSection() {
   const featuredBlog = {
@@ -55,7 +56,7 @@ export function BlogInsightsSection() {
       {/* Header */}
       <div className="text-center mb-8 sm:mb-12 lg:mb-16">
         <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900 dark:text-white mb-4 sm:mb-6">
-          Explore Our Latest <span className="text-blue-600 dark:text-blue-400">Insights</span>
+          Explore Our Latest <span className="text-gradient-primary">Insights</span>
         </h1>
         <p className="text-sm sm:text-base lg:text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
           Exploring the latest insights and trends in your industry.
@@ -113,9 +114,10 @@ export function BlogInsightsSection() {
 
       {/* View All Blogs Button */}
       <div className="text-center">
-        <button className="bg-gradient-primary text-white px-6 py-2 text-sm sm:text-base font-medium rounded-full transition-colors duration-200 shadow-sm hover:shadow-md">
-          View All Blogs
-        </button>
+        <PrimaryButton 
+          text="View All Blogs"
+          className="bg-gradient-primary text-white px-6 py-2 text-sm sm:text-base font-medium rounded-full transition-colors duration-200 shadow-sm hover:shadow-md"
+        />
       </div>
     </section>
   )

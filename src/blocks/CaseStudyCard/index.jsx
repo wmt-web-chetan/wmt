@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import PrimaryButton from "../PrimaryButton";
 
 export default function CaseStudyCard({ caseStudy, isFullWidth = false }) {
   return (
@@ -31,10 +32,10 @@ export default function CaseStudyCard({ caseStudy, isFullWidth = false }) {
                   </div>
                 </div>
                 <div>
-                  <button className="w-fit bg-transparent hover:bg-transparent border-1 border-primary text-primary transition-all duration-200 px-3 py-1.5 sm:px-4 sm:py-2 text-sm sm:text-base rounded-full flex items-center gap-2">
-                    <span>View Case Study</span>
-                    <i className="icon-right-open"></i>
-                  </button>
+                  <PrimaryButton 
+                    text={<><span>View Case Study</span><i className="icon-right-open"></i></>}
+                    className="w-fit bg-transparent hover:bg-transparent border-1 border-primary text-primary transition-all duration-200 flex items-center gap-2"
+                  />
                 </div>
               </div>
               {/* Image Section for Full Width */}
@@ -79,10 +80,10 @@ export default function CaseStudyCard({ caseStudy, isFullWidth = false }) {
                     </span>
                   ))}
                 </div>
-                <button className="bg-transparent hover:bg-transparent hover:cursor-pointer border-1 border-primary text-primary px-3 py-1.5 text-xs sm:text-sm rounded-full transition-all duration-200 flex items-center gap-2">
-                  <span>View Case Study</span>
-                  <i className="icon-right-open"></i>
-                </button>
+                <PrimaryButton 
+                  text={<><span>View Case Study</span><i className="icon-right-open"></i></>}
+                  className="bg-transparent hover:bg-transparent hover:cursor-pointer border-1 border-primary text-primary text-xs sm:text-sm rounded-full transition-all duration-200 flex items-center gap-2"
+                />
               </div>
             </>
           )}

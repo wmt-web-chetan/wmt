@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useRef } from "react"
+import "./video.css"
 
 export default function MarqueeVideoSection() {
   const [isPlaying, setIsPlaying] = useState(false)
@@ -23,45 +24,18 @@ export default function MarqueeVideoSection() {
   return (
     <div className="w-full">
       {/* Marquee Section */}
-      <div className="bg-blue-600 text-white py-3 sm:py-4 md:py-5 lg:py-6 overflow-hidden">
-        <style jsx>{`
-          .marquee-container {
-            width: 100%;
-            overflow: hidden;
-            white-space: nowrap;
-          }
-          .marquee-content {
-            display: inline-block;
-            animation: marquee 20s linear infinite;
-          }
-          .marquee-text {
-            font-size: 1.5rem;
-            font-weight: bold;
-          }
-          @keyframes marquee {
-            0% {
-              transform: translateX(0);
-            }
-            100% {
-              transform: translateX(-100%);
-            }
-          }
-          @media (prefers-reduced-motion: reduce) {
-            .marquee-content {
-              animation: none;
-            }
-          }
-        `}</style>
+      <div className="blue-marquee-section bg-blue-600 text-white py-3 sm:py-4 md:py-5 lg:py-6 overflow-hidden">
         <div className="marquee-container">
           <div className="marquee-content">
             <span className="marquee-text">
-              Innovating Ideas ✦ Building Impact ✦ Delivering Excellence ✦ Innovating Ideas ✦ Building Impact ✦
-              Delivering Excellence ✦
+              Innovating Ideas ✦ Building Impact ✦ Delivering Excellence ✦ Innovating Ideas ✦&nbsp;
             </span>
             {/* Duplicate text for seamless looping */}
             <span className="marquee-text">
-              Innovating Ideas ✦ Building Impact ✦ Delivering Excellence ✦ Innovating Ideas ✦ Building Impact ✦
-              Delivering Excellence ✦
+              Innovating Ideas ✦ Building Impact ✦ Delivering Excellence ✦ Innovating Ideas ✦&nbsp;
+            </span>
+            <span className="marquee-text">
+              Innovating Ideas ✦ Building Impact ✦ Delivering Excellence ✦ Innovating Ideas ✦&nbsp;
             </span>
           </div>
         </div>
@@ -72,7 +46,7 @@ export default function MarqueeVideoSection() {
         <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-20 3xl:px-24">
           {/* Header */}
           <div className="text-center mb-6 sm:mb-8 md:mb-10 lg:mb-12 xl:mb-14 2xl:mb-16 3xl:mb-18">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl 3xl:text-8xl font-bold text-blue-600 mb-2 sm:mb-3 md:mb-4 lg:mb-5 xl:mb-6 2xl:mb-7 3xl:mb-8">
+            <h2 className="text-gradient-primary text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl 3xl:text-8xl font-bold mb-2 sm:mb-3 md:mb-4 lg:mb-5 xl:mb-6 2xl:mb-7 3xl:mb-8">
               Client-Tales
             </h2>
             <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl text-gray-600">

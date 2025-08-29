@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image';
+import PrimaryButton from '../../blocks/PrimaryButton';
 
 const SmartServices = () => {
   const [expandedSection, setExpandedSection] = useState(0);
@@ -196,21 +197,26 @@ const SmartServices = () => {
                           </div>
                           
                           {/* Button */}
-                          <button className="bg-gradient-primary hover:bg-gradient-primary-hover text-white px-4 sm:px-6 py-2.5 sm:py-3 rounded-full font-medium transition-all duration-200 flex items-center space-x-2 w-fit text-sm sm:text-base shadow-lg hover:shadow-xl transform hover:scale-105 cursor-pointer">
-                            <span>{service.buttonText}</span>
-                            <svg
-                              className="w-5 h-3 sm:w-6 sm:h-4"
-                              viewBox="0 0 33 28"
-                              fill="none"
-                            >
-                              <path 
-                                d="M16.7607 0.896484C17.4226 0.234637 18.4964 0.234637 19.1582 0.896484L32.0156 13.7539C32.1174 13.8558 32.13 14.0131 32.0537 14.1289L32.0156 14.1758L19.1582 27.0342C18.4964 27.696 17.4226 27.6959 16.7607 27.0342C16.0989 26.3723 16.0989 25.2986 16.7607 24.6367L25.0557 16.3428L25.7383 15.6602H2.59766C1.66168 15.6601 0.90332 14.9008 0.90332 13.9648C0.90348 13.029 1.66178 12.2705 2.59766 12.2705H25.7383L16.7607 3.29297C16.0992 2.63116 16.0991 1.55828 16.7607 0.896484Z" 
-                                fill="currentColor" 
-                                stroke="white" 
+                          <PrimaryButton 
+                            text={
+                              <>
+                                <span>{service.buttonText}</span>
+                                <svg
+                                  className="w-5 h-3 sm:w-6 sm:h-4"
+                                  viewBox="0 0 33 28"
+                                  fill="none"
+                                >
+                                  <path 
+                                    d="M16.7607 0.896484C17.4226 0.234637 18.4964 0.234637 19.1582 0.896484L32.0156 13.7539C32.1174 13.8558 32.13 14.0131 32.0537 14.1289L32.0156 14.1758L19.1582 27.0342C18.4964 27.696 17.4226 27.6959 16.7607 27.0342C16.0989 26.3723 16.0989 25.2986 16.7607 24.6367L25.0557 16.3428L25.7383 15.6602H2.59766C1.66168 15.6601 0.90332 14.9008 0.90332 13.9648C0.90348 13.029 1.66178 12.2705 2.59766 12.2705H25.7383L16.7607 3.29297C16.0992 2.63116 16.0991 1.55828 16.7607 0.896484Z" 
+                                    fill="currentColor" 
+                                    stroke="white" 
                                 strokeWidth="0.8"
-                              />
-                            </svg>
-                          </button>
+                                  />
+                                </svg>
+                              </>
+                            }
+                            className="bg-gradient-primary hover:bg-gradient-primary-hover text-white font-medium transition-all duration-200 flex items-center space-x-2 w-fit text-sm sm:text-base shadow-lg hover:shadow-xl transform hover:scale-105 cursor-pointer"
+                          />
                         </div>
                         
                         {/* Image Section */}
@@ -237,9 +243,10 @@ const SmartServices = () => {
 
         {/* View All Button */}
         <div className="text-center mt-8 sm:mt-12 md:mt-16 px-4 sm:px-6 md:px-12 lg:px-16">
-          <button className="bg-gradient-primary text-white hover:cursor-pointer px-6 sm:px-8 md:px-10 py-3 sm:py-4 rounded-full font-medium transition-all duration-200 text-sm sm:text-base shadow-lg hover:shadow-xl transform">
-            View All Services
-          </button>
+          <PrimaryButton 
+            text="View All Services"
+            className="bg-gradient-primary text-white hover:cursor-pointer px-6 sm:px-8 md:px-10 py-3 sm:py-4 rounded-full font-medium transition-all duration-200 text-sm sm:text-base shadow-lg hover:shadow-xl transform"
+          />
         </div>
       </div>
     </div>
